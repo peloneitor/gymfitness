@@ -1,0 +1,35 @@
+.banner, .services-section{
+  width: auto;
+  height: auto;
+}
+/*Banner section*/
+.banner a.wp-block-button__link, .services-section .service-btn a.wp-block-button__link{
+	text-decoration: none;
+}
+.banner a.wp-block-button__link:hover {
+	color: #d3da36 !important;
+	background: #113665 !important;
+}
+/*Services section*/
+.services-section .service-btn a.wp-block-button__link:hover {
+	color: #d3da36 !important;
+  background-color: transparent !important;
+  border: 1px solid #d3da36 !important;
+}
+.services-section h2, .services-section p{
+	color: #fff !important;
+}
+/*Media*/
+@media screen and (max-width:767px) {
+	.banner h1{
+		font-size: 30px !important;
+	}
+	.banner p{
+		display: none !important;
+	}
+}
+@media screen and (max-width: 992px) and (min-width: 768px){
+	.banner .wp-block-column.is-vertically-aligned-center:nth-child(2){
+		flex-basis: 100% !important;
+	}
+}

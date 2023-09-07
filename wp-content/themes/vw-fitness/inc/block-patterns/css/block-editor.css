@@ -1,0 +1,32 @@
+.banner p, .banner .block-editor-rich-text__editable.wp-block-button__link, .services-section p, .services-section .block-editor-rich-text__editable.wp-block-button__link{
+	font-family: 'Open Sans', sans-serif !important;
+}
+.banner h1, .services-section h2{
+	font-family: 'Raleway', sans-serif !important;
+}
+/*Banner section*/
+.banner .block-editor-rich-text__editable.wp-block-button__link, .services-section .block-editor-rich-text__editable.wp-block-button__link{
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 0 !important;
+}
+.banner .block-editor-rich-text__editable.wp-block-button__link:hover{
+  color: #d3da36 !important;
+  background: #113665 !important;
+}
+/*Services section*/
+.services-section p.block-editor-rich-text__editable.block-editor-block-list__block.wp-block, .services-section .wp-block-buttons.block-editor-block-list__block.block-editor-block-list__layout{
+	margin-top: 0px !important;
+	margin-bottom: 10px !important;
+}
+.services-section h2{
+	font-weight: bold;
+}
+.services-section .block-editor-rich-text__editable.wp-block-button__link:hover{
+  color: #d3da36 !important;
+	background-color: transparent !important;
+	border: 1px solid #d3da36 !important;
+}
+.services-section h2, .services-section p{
+	color: #fff !important;
+}
